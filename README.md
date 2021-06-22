@@ -16,8 +16,6 @@ The following **optional** features are implemented:
 
 * [ ] UI animations
 
-- [ ] List anything else that you can get done to improve the app functionality!
-
 ## Video Walkthrough
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/65196174/123011299-ba9e9c00-d385-11eb-8e84-88e1778e7a5a.gif)

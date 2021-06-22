@@ -23,9 +23,9 @@ The following **optional** features are implemented:
 ## Notes
 
 Describe any challenges encountered while building the app:
-    - The primary challenge for this project was getting a grasp of how UIController, Storyboarding, Outlets, and Actions all interact and work with each other.
-    - I had an issue of one text field component becoming disconnected to an outlet and therefore not having its value updated. To fix this, I noticed that there was an open circle to the left of the outlet declaration and connected that to the proper component on my storyboard.
-    - I also had an issue implementing the animation to only move up when typing and move down when the field is empty. For this, I added a boolean that kept track of the current state and with that I was able to check the length of the text and the boolean value to see if I needed to move the text.
+- The primary challenge for this project was getting a grasp of how UIController, Storyboarding, Outlets, and Actions all interact and work with each other.
+- I had an issue of one text field component becoming disconnected to an outlet and therefore not having its value updated. To fix this, I noticed that there was an open circle to the left of the outlet declaration and connected that to the proper component on my storyboard.
+- I also had an issue implementing the animation to only move up when typing and move down when the field is empty. For this, I added a boolean that kept track of the current state and with that I was able to check the length of the text and the boolean value to see if I needed to move the text.
 
 ## Credits
 

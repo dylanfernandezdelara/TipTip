@@ -24,8 +24,19 @@
 bool onPage = true;
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    double doubleValue = [defaults doubleForKey:@"default_tip_percentage"];
+    if (doubleValue == 0.25){
+        self.tipPercentageControl.selectedSegmentIndex = 2;
+    }
+    NSLog(@"View will appear");
 }
 
 // IBAction is the RETURN FIELD
